@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/*
+    transition: all;
+    transition: ease;
+    transition: ease-in;
+    transition: ease-in-out;
+    transition: ease-out;  
+*/
+/* 
+    transition-property: jeta change korte chaw;
+    transition-duration: koto khon hobe;
+    transition-delay: koto khon pore hobe;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-family: Comfortaa;
+    background-color: rgb(250, 248, 248);
+}
+.rapper{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; */
+    position: absolute;
+    top: 35%;
+    right: 40%;
+}
+.main{
+    background-color: turquoise;
+    color: #fff;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 50px;
+    /* transition: font-size 2s; */
+    transition: 0.5s ease-in-out;
+    transform-origin: left;
+  
+}
+.main:hover{
+    background-color: rgb(206, 82, 25);
+    color: #fff;
+    font-size: 30px;
+    transform: scale(1.2);
+} 
